@@ -1,0 +1,184 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    instance-1 (AVX2, FMA3, 29 GB RAM)
+Command: iqtree -s lfr.mafft_aln.fasta -m LG
+Seed:    315217 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jan 30 22:41:10 2020
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file lfr.mafft_aln.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 65 sequences with 968 columns, 745 distinct patterns
+376 parsimony-informative, 224 singleton sites, 368 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  ARATH20773    52.48%    passed     99.97%
+   2  STYLE07007    30.06%    failed      0.00%
+   3  CHOCR05692    46.18%    failed      0.35%
+   4  KLEFL05907    44.32%    passed     11.18%
+   5  MARPO22104    53.10%    passed     79.00%
+   6  ORYBR26349    53.00%    passed     96.16%
+   7  ORYGL24816    52.48%    passed     98.49%
+   8  ORYLO22107    61.26%    passed     36.43%
+   9  ORYPU27687    52.48%    passed     96.77%
+  10  ORYRU32807    52.48%    passed     96.95%
+  11  ORYNI28574    52.48%    passed     99.00%
+  12  ORYSI32123    52.48%    passed     99.00%
+  13  ORYSJ29382    51.03%    passed     22.39%
+  14  BRADI18278    65.91%    passed     75.41%
+  15  HORVV148848   52.89%    passed    100.00%
+  16  AEGTA11392    65.50%    passed     86.94%
+  17  TRIUA27400    51.14%    passed     83.43%
+  18  SORBI24230    52.79%    passed    100.00%
+  19  SETIT02270    52.89%    passed     99.94%
+  20  HELAN13091    52.38%    passed     99.99%
+  21  CUCSA07780    52.79%    passed    100.00%
+  22  LOTJA00850    52.17%    passed     99.89%
+  23  PHAVU24183    49.28%    passed     99.96%
+  24  PHAAN09852    52.48%    passed    100.00%
+  25  LUPAN04784    52.38%    passed     99.99%
+  26  POPTR58659    53.20%    passed     99.94%
+  27  PRUPE21865    51.86%    passed     99.96%
+  28  ARAAL06698    52.48%    passed     99.29%
+  29  BRARP18872    52.69%    passed     99.79%
+  30  BRAOL29252    52.69%    passed     99.86%
+  31  ARALY10923    59.19%    passed     98.55%
+  32  THECC15400    52.69%    passed     99.86%
+  33  GOSAR26029    52.79%    passed     99.82%
+  34  GOSRA07582    52.69%    passed     99.82%
+  35  VITVI03028    52.79%    passed     99.92%
+  36  AMBTC26541    53.41%    passed     98.93%
+  37  PHYPA08669    63.53%    passed     50.09%
+  38  PHYPA17812    51.86%    passed     58.75%
+  39  WHEAT100525   52.89%    passed    100.00%
+  40  WHEAT106035   52.89%    passed    100.00%
+  41  WHEAT111315   52.89%    passed    100.00%
+  42  MUSAM00602    53.31%    passed     83.24%
+  43  MUSAM24871    51.86%    passed     85.78%
+  44  CHEQI10632    60.74%    passed     71.37%
+  45  CHEQI30689    57.13%    passed     87.70%
+  46  NICAT16631    52.07%    passed     99.35%
+  47  NICAT18457    52.38%    passed     99.84%
+  48  SOLLC15020    51.96%    passed     99.45%
+  49  SOLLC33232    53.10%    passed     99.98%
+  50  SOLTU18916    51.96%    passed     99.43%
+  51  SOLTU41163    53.10%    passed     99.89%
+  52  MEDTR01861    45.87%    passed     57.29%
+  53  MEDTR02355    54.13%    passed     95.39%
+  54  SOYBN43261    49.28%    passed     99.94%
+  55  SOYBN46193    52.48%    passed    100.00%
+  56  MANES01912    52.69%    passed     99.99%
+  57  MANES32093    52.69%    passed    100.00%
+  58  BRANA17396    52.69%    passed     99.90%
+  59  BRANA67935    52.69%    passed     99.86%
+  60  COCAP02093    48.66%    passed     99.96%
+  61  COCAP00925    52.69%    passed    100.00%
+  62  GOSHI20068    52.69%    passed     98.81%
+  63  GOSHI51885    52.69%    passed     99.37%
+  64  SELML06534    52.27%    passed     93.79%
+  65  SELML10437    52.27%    passed     94.03%
+WARNING: 58 sequences contain more than 50% gaps/ambiguity
+****  TOTAL         52.74%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: ORYSI32123 is identical to ORYNI28574 but kept for subsequent analysis
+NOTE: BRANA67935 is identical to BRAOL29252 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.033 seconds
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -19181.312
+Optimal log-likelihood: -18626.526
+Parameters optimization took 1 rounds (0.110 sec)
+Computing ML distances based on estimated model parameters... 0.280 sec
+Computing BIONJ tree...
+0.004 seconds
+Log-likelihood of BIONJ tree: -18613.905
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.928 second
+Computing log-likelihood of 98 initial trees ... 6.353 seconds
+Current best score: -18597.016
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18596.382
+Iteration 10 / LogL: -18599.186 / Time: 0h:0m:11s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 14: -18595.198
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -18594.463
+Iteration 20 / LogL: -18594.508 / Time: 0h:0m:14s
+Finish initializing candidate tree set (12)
+Current best tree score: -18594.463 / CPU time: 14.341
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -18594.249
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -18590.416
+Iteration 30 / LogL: -18590.539 / Time: 0h:0m:23s (0h:1m:16s left)
+Iteration 40 / LogL: -18593.401 / Time: 0h:0m:29s (0h:1m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -18589.314
+Iteration 50 / LogL: -18589.314 / Time: 0h:0m:35s (0h:1m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -18587.360
+Iteration 60 / LogL: -18600.889 / Time: 0h:0m:41s (0h:1m:5s left)
+UPDATE BEST LOG-LIKELIHOOD: -18587.359
+Iteration 70 / LogL: -18589.315 / Time: 0h:0m:47s (0h:0m:57s left)
+UPDATE BEST LOG-LIKELIHOOD: -18587.359
+Iteration 80 / LogL: -18590.298 / Time: 0h:0m:53s (0h:0m:49s left)
+Iteration 90 / LogL: -18602.516 / Time: 0h:0m:59s (0h:0m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -18586.684
+Iteration 100 / LogL: -18602.726 / Time: 0h:1m:5s (0h:1m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 110: -18586.560
+Iteration 110 / LogL: -18586.560 / Time: 0h:1m:12s (0h:1m:6s left)
+Iteration 120 / LogL: -18587.417 / Time: 0h:1m:18s (0h:0m:59s left)
+Iteration 130 / LogL: -18591.770 / Time: 0h:1m:24s (0h:0m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 131: -18586.043
+Iteration 140 / LogL: -18590.914 / Time: 0h:1m:30s (0h:0m:59s left)
+Iteration 150 / LogL: -18587.416 / Time: 0h:1m:36s (0h:0m:52s left)
+Iteration 160 / LogL: -18627.786 / Time: 0h:1m:42s (0h:0m:45s left)
+Iteration 170 / LogL: -18586.084 / Time: 0h:1m:48s (0h:0m:39s left)
+Iteration 180 / LogL: -18599.318 / Time: 0h:1m:55s (0h:0m:32s left)
+Iteration 190 / LogL: -18586.686 / Time: 0h:2m:1s (0h:0m:26s left)
+Iteration 200 / LogL: -18615.499 / Time: 0h:2m:7s (0h:0m:19s left)
+Iteration 210 / LogL: -18586.044 / Time: 0h:2m:13s (0h:0m:13s left)
+Iteration 220 / LogL: -18618.469 / Time: 0h:2m:20s (0h:0m:7s left)
+Iteration 230 / LogL: -18586.104 / Time: 0h:2m:26s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 232 ITERATIONS / Time: 0h:2m:27s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18586.043
+Optimal log-likelihood: -18586.043
+Parameters optimization took 1 rounds (0.049 sec)
+BEST SCORE FOUND : -18586.043
+Total tree length: 9.019
+
+Total number of iterations: 232
+CPU time used for tree search: 146.840 sec (0h:2m:26s)
+Wall-clock time used for tree search: 146.876 sec (0h:2m:26s)
+Total CPU time used: 147.464 sec (0h:2m:27s)
+Total wall-clock time used: 147.510 sec (0h:2m:27s)
+
+Analysis results written to: 
+  IQ-TREE report:                lfr.mafft_aln.fasta.iqtree
+  Maximum-likelihood tree:       lfr.mafft_aln.fasta.treefile
+  Likelihood distances:          lfr.mafft_aln.fasta.mldist
+  Screen log file:               lfr.mafft_aln.fasta.log
+
+Date and Time: Thu Jan 30 22:43:37 2020

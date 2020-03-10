@@ -1,0 +1,160 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    instance-1 (AVX2, FMA3, 29 GB RAM)
+Command: iqtree -s hap2.clustal_aln.fasta -m LG
+Seed:    105023 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jan 30 22:28:54 2020
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file hap2.clustal_aln.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 74 sequences with 1468 columns, 1335 distinct patterns
+865 parsimony-informative, 293 singleton sites, 310 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  ARATH26614    51.98%    passed     95.14%
+   2  ICHMU00745    64.24%    failed      0.00%
+   3  ICHMG07310    64.24%    failed      0.00%
+   4  TETTS02693    51.29%    failed      0.00%
+   5  PSEPJ02990    50.07%    failed      0.00%
+   6  POLPP02182    52.45%    failed      0.00%
+   7  DICDI03960    61.04%    failed      0.00%
+   8  DICPU08696    55.65%    failed      0.00%
+   9  BODSA09965    54.36%    failed      0.00%
+  10  LEIBR00777    38.35%    failed      0.00%
+  11  TRYCC07250    59.95%    failed      0.65%
+  12  TRYB200995    57.90%    failed      0.01%
+  13  NAEGR09551    58.11%    failed      0.00%
+  14  CYAME00604    51.77%    failed      0.00%
+  15  CYAM104693    51.77%    failed      0.00%
+  16  ORYBR30285    51.84%    passed     64.95%
+  17  ORYGL19355    51.02%    failed      0.02%
+  18  ORYSI24865    63.76%    failed      0.01%
+  19  ORYSJ22678    50.82%    failed      0.05%
+  20  BRADI23061    56.06%    failed      0.09%
+  21  HORVV126779   50.54%    failed      2.04%
+  22  AEGTA16793    56.68%    passed     28.99%
+  23  ERATE23368    62.60%    failed      0.82%
+  24  SORBI14018    50.07%    passed      6.23%
+  25  MAIZE29959    49.86%    failed      0.26%
+  26  SETIT04466    49.80%    failed      0.41%
+  27  NICAT17634    42.37%    passed     43.67%
+  28  SOLLC30910    58.79%    passed     33.29%
+  29  CUCSA14784    54.90%    passed     98.58%
+  30  MEDTR24375    49.66%    passed     62.13%
+  31  PHAVU09099    48.91%    passed     80.92%
+  32  PHAAN05400    51.43%    passed     79.28%
+  33  LUPAN02887    57.97%    passed     81.93%
+  34  POPTR27565    51.70%    passed     97.63%
+  35  PRUPE01558    53.34%    passed     91.97%
+  36  ARAAL13164    42.10%    passed     81.73%
+  37  BRARP40741    53.68%    passed     97.49%
+  38  BRANA93064    52.79%    passed     97.49%
+  39  BRAOL50779    49.32%    passed     88.74%
+  40  ARALY23192    51.77%    passed     92.18%
+  41  THECC12418    49.73%    passed     75.58%
+  42  COCAP18490    51.70%    passed     27.48%
+  43  GOSAR31066    51.43%    passed     98.06%
+  44  GOSRA46123    51.43%    passed     92.34%
+  45  VITVI23490    44.28%    passed     65.67%
+  46  SELML21516    61.51%    failed      0.00%
+  47  PARTE05201    53.34%    failed      0.00%
+  48  PARTE06261    53.34%    failed      0.00%
+  49  HYDVU01784    54.16%    failed      0.00%
+  50  HYDVU16662    51.23%    failed      0.00%
+  51  ORYLO07186    46.73%    failed      0.06%
+  52  ORYLO14359    61.38%    passed     39.56%
+  53  ORYPU21343    55.52%    failed      0.05%
+  54  ORYPU32013    51.36%    failed      0.42%
+  55  ORYRU25304    53.81%    failed      0.07%
+  56  ORYRU38002    48.98%    failed      1.26%
+  57  ORYNI24757    54.36%    failed      0.02%
+  58  ORYNI37447    57.49%    passed     47.43%
+  59  WHEAT81026    57.77%    passed      7.08%
+  60  WHEAT81028    53.13%    failed      2.23%
+  61  WHEAT87894    50.89%    passed     12.46%
+  62  WHEAT87896    52.32%    passed     14.70%
+  63  WHEAT95040    50.89%    passed      6.10%
+  64  CHEQI10104    63.62%    passed     25.54%
+  65  CHEQI16567    63.96%    passed     15.25%
+  66  CHEQI32809    64.78%    passed     25.35%
+  67  SOYBN02660    55.99%    passed     91.25%
+  68  SOYBN21946    52.11%    passed     81.09%
+  69  SOYBN21949    53.88%    passed     84.03%
+  70  SOYBN42891    51.98%    passed     83.36%
+  71  MANES08056    52.32%    passed     88.95%
+  72  MANES16598    58.51%    passed     99.93%
+  73  GOSHI53031    52.11%    passed     96.01%
+  74  GOSHI21416    51.23%    passed     97.76%
+WARNING: 62 sequences contain more than 50% gaps/ambiguity
+****  TOTAL         53.68%  34 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: ICHMG07310 is identical to ICHMU00745 but kept for subsequent analysis
+NOTE: CYAM104693 is identical to CYAME00604 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.036 seconds
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -54356.205
+Optimal log-likelihood: -52815.227
+Parameters optimization took 1 rounds (0.270 sec)
+Computing ML distances based on estimated model parameters... 0.448 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -52950.622
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.807 second
+Computing log-likelihood of 98 initial trees ... 11.228 seconds
+Current best score: -52794.590
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -52772.670
+Iteration 10 / LogL: -52772.758 / Time: 0h:0m:22s
+Iteration 20 / LogL: -52777.845 / Time: 0h:0m:28s
+Finish initializing candidate tree set (9)
+Current best tree score: -52772.670 / CPU time: 27.517
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -52774.859 / Time: 0h:0m:41s (0h:1m:41s left)
+Iteration 40 / LogL: -52775.934 / Time: 0h:0m:52s (0h:1m:21s left)
+Iteration 50 / LogL: -52774.669 / Time: 0h:1m:4s (0h:1m:6s left)
+Iteration 60 / LogL: -52885.998 / Time: 0h:1m:16s (0h:0m:53s left)
+Iteration 70 / LogL: -52776.731 / Time: 0h:1m:27s (0h:0m:39s left)
+Iteration 80 / LogL: -52776.835 / Time: 0h:1m:47s (0h:0m:28s left)
+Iteration 90 / LogL: -52774.796 / Time: 0h:2m:4s (0h:0m:15s left)
+Iteration 100 / LogL: -52774.940 / Time: 0h:2m:19s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:2m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -52772.670
+Optimal log-likelihood: -52772.670
+Parameters optimization took 1 rounds (0.107 sec)
+BEST SCORE FOUND : -52772.670
+Total tree length: 21.732
+
+Total number of iterations: 102
+CPU time used for tree search: 141.272 sec (0h:2m:21s)
+Wall-clock time used for tree search: 141.345 sec (0h:2m:21s)
+Total CPU time used: 142.492 sec (0h:2m:22s)
+Total wall-clock time used: 142.582 sec (0h:2m:22s)
+
+Analysis results written to: 
+  IQ-TREE report:                hap2.clustal_aln.fasta.iqtree
+  Maximum-likelihood tree:       hap2.clustal_aln.fasta.treefile
+  Likelihood distances:          hap2.clustal_aln.fasta.mldist
+  Screen log file:               hap2.clustal_aln.fasta.log
+
+Date and Time: Thu Jan 30 22:31:16 2020

@@ -1,0 +1,168 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    instance-1 (AVX2, FMA3, 29 GB RAM)
+Command: iqtree -s lfr.clustal_aln.fasta -m LG
+Seed:    107856 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jan 30 22:40:05 2020
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file lfr.clustal_aln.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 65 sequences with 881 columns, 739 distinct patterns
+379 parsimony-informative, 266 singleton sites, 236 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  ARATH20773    47.79%    passed     99.97%
+   2  STYLE07007    23.16%    failed      0.00%
+   3  CHOCR05692    40.86%    failed      0.34%
+   4  KLEFL05907    38.82%    passed     11.02%
+   5  MARPO22104    48.47%    passed     78.90%
+   6  ORYBR26349    48.35%    passed     96.13%
+   7  ORYGL24816    47.79%    passed     98.54%
+   8  ORYLO22107    57.43%    passed     35.80%
+   9  ORYPU27687    47.79%    passed     96.84%
+  10  ORYRU32807    47.79%    passed     97.04%
+  11  ORYNI28574    47.79%    passed     99.04%
+  12  ORYSI32123    47.79%    passed     99.04%
+  13  ORYSJ29382    46.20%    passed     22.43%
+  14  BRADI18278    62.54%    passed     74.74%
+  15  HORVV148848   48.24%    passed    100.00%
+  16  AEGTA11392    62.09%    passed     86.47%
+  17  TRIUA27400    46.31%    passed     82.94%
+  18  SORBI24230    48.13%    passed    100.00%
+  19  SETIT02270    48.24%    passed     99.93%
+  20  HELAN13091    47.67%    passed     99.99%
+  21  CUCSA07780    48.13%    passed    100.00%
+  22  LOTJA00850    47.45%    passed     99.90%
+  23  PHAVU24183    44.27%    passed     99.96%
+  24  PHAAN09852    47.79%    passed    100.00%
+  25  LUPAN04784    47.67%    passed     99.99%
+  26  POPTR58659    48.58%    passed     99.94%
+  27  PRUPE21865    47.11%    passed     99.96%
+  28  ARAAL06698    47.79%    passed     99.33%
+  29  BRARP18872    48.01%    passed     99.80%
+  30  BRAOL29252    48.01%    passed     99.87%
+  31  ARALY10923    55.16%    passed     98.52%
+  32  THECC15400    48.01%    passed     99.85%
+  33  GOSAR26029    48.13%    passed     99.82%
+  34  GOSRA07582    48.01%    passed     99.82%
+  35  VITVI03028    48.13%    passed     99.93%
+  36  AMBTC26541    48.81%    passed     98.89%
+  37  PHYPA08669    59.93%    passed     49.59%
+  38  PHYPA17812    47.11%    passed     58.00%
+  39  WHEAT100525   48.24%    passed    100.00%
+  40  WHEAT106035   48.24%    passed    100.00%
+  41  WHEAT111315   48.24%    passed    100.00%
+  42  MUSAM00602    48.69%    passed     83.25%
+  43  MUSAM24871    47.11%    passed     85.98%
+  44  CHEQI10632    56.87%    passed     70.41%
+  45  CHEQI30689    52.89%    passed     87.35%
+  46  NICAT16631    47.33%    passed     99.38%
+  47  NICAT18457    47.67%    passed     99.85%
+  48  SOLLC15020    47.22%    passed     99.47%
+  49  SOLLC33232    48.47%    passed     99.98%
+  50  SOLTU18916    47.22%    passed     99.45%
+  51  SOLTU41163    48.47%    passed     99.91%
+  52  MEDTR01861    40.52%    passed     56.46%
+  53  MEDTR02355    49.60%    passed     95.40%
+  54  SOYBN43261    44.27%    passed     99.94%
+  55  SOYBN46193    47.79%    passed    100.00%
+  56  MANES01912    48.01%    passed     99.99%
+  57  MANES32093    48.01%    passed    100.00%
+  58  BRANA17396    48.01%    passed     99.90%
+  59  BRANA67935    48.01%    passed     99.87%
+  60  COCAP02093    43.59%    passed     99.96%
+  61  COCAP00925    48.01%    passed    100.00%
+  62  GOSHI20068    48.01%    passed     98.81%
+  63  GOSHI51885    48.01%    passed     99.36%
+  64  SELML06534    47.56%    passed     93.63%
+  65  SELML10437    47.56%    passed     93.89%
+WARNING: 7 sequences contain more than 50% gaps/ambiguity
+****  TOTAL         48.08%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: ORYSI32123 is identical to ORYNI28574 but kept for subsequent analysis
+NOTE: BRANA67935 is identical to BRAOL29252 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.022 seconds
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -19487.072
+Optimal log-likelihood: -18940.064
+Parameters optimization took 1 rounds (0.108 sec)
+Computing ML distances based on estimated model parameters... 0.260 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -18941.196
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.062 second
+Computing log-likelihood of 98 initial trees ... 5.487 seconds
+Current best score: -18925.047
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -18919.463
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -18916.917
+Iteration 10 / LogL: -18916.955 / Time: 0h:0m:10s
+Iteration 20 / LogL: -18919.463 / Time: 0h:0m:12s
+Finish initializing candidate tree set (2)
+Current best tree score: -18916.917 / CPU time: 12.368
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -18914.552
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -18913.531
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -18913.466
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -18912.542
+Iteration 30 / LogL: -18912.542 / Time: 0h:0m:18s (0h:1m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -18911.599
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -18911.202
+Iteration 40 / LogL: -18911.217 / Time: 0h:0m:25s (0h:1m:2s left)
+Iteration 50 / LogL: -18935.061 / Time: 0h:0m:30s (0h:0m:54s left)
+Iteration 60 / LogL: -18912.162 / Time: 0h:0m:37s (0h:0m:48s left)
+Iteration 70 / LogL: -18912.542 / Time: 0h:0m:43s (0h:0m:42s left)
+Iteration 80 / LogL: -18912.811 / Time: 0h:0m:49s (0h:0m:35s left)
+Iteration 90 / LogL: -18912.558 / Time: 0h:0m:54s (0h:0m:28s left)
+Iteration 100 / LogL: -18912.837 / Time: 0h:1m:0s (0h:0m:22s left)
+Iteration 110 / LogL: -18915.336 / Time: 0h:1m:6s (0h:0m:16s left)
+Iteration 120 / LogL: -18925.079 / Time: 0h:1m:16s (0h:0m:10s left)
+Iteration 130 / LogL: -18913.340 / Time: 0h:1m:23s (0h:0m:4s left)
+TREE SEARCH COMPLETED AFTER 138 ITERATIONS / Time: 0h:1m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -18911.202
+Optimal log-likelihood: -18911.202
+Parameters optimization took 1 rounds (0.059 sec)
+BEST SCORE FOUND : -18911.202
+Total tree length: 9.337
+
+Total number of iterations: 138
+CPU time used for tree search: 88.676 sec (0h:1m:28s)
+Wall-clock time used for tree search: 88.719 sec (0h:1m:28s)
+Total CPU time used: 89.268 sec (0h:1m:29s)
+Total wall-clock time used: 89.310 sec (0h:1m:29s)
+
+Analysis results written to: 
+  IQ-TREE report:                lfr.clustal_aln.fasta.iqtree
+  Maximum-likelihood tree:       lfr.clustal_aln.fasta.treefile
+  Likelihood distances:          lfr.clustal_aln.fasta.mldist
+  Screen log file:               lfr.clustal_aln.fasta.log
+
+Date and Time: Thu Jan 30 22:41:34 2020

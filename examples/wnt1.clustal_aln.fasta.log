@@ -1,0 +1,559 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    instance-1 (AVX2, FMA3, 29 GB RAM)
+Command: iqtree -s wnt1.clustal_aln.fasta -m LG
+Seed:    365115 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jan 30 22:28:42 2020
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file wnt1.clustal_aln.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 161 sequences with 786 columns, 728 distinct patterns
+444 parsimony-informative, 167 singleton sites, 175 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  ORYLA15750   52.93%    passed     98.80%
+   2  BRAFL14244   52.16%    passed     15.93%
+   3  PETMA08585   66.03%    failed      0.02%
+   4  EPTBU11138   55.98%    passed     20.49%
+   5  LEPOC12555   52.54%    passed     95.74%
+   6  ANATE20543   52.93%    passed     99.66%
+   7  SERDU11331   52.93%    passed     99.80%
+   8  SCOMX02445   52.93%    passed     99.58%
+   9  GASAC11689   52.93%    passed     99.48%
+  10  TAKRU14401   53.05%    passed     99.59%
+  11  TETNG13489   52.93%    passed     99.60%
+  12  ORYME05386   52.93%    passed     98.71%
+  13  NOTFU23826   52.93%    passed     98.72%
+  14  CYPVA01614   52.42%    passed     97.61%
+  15  POEFO08422   52.93%    passed     99.81%
+  16  XIPMA14314   52.93%    passed     99.73%
+  17  ORENI22030   52.93%    passed     99.48%
+  18  AMPOC23802   52.93%    passed     99.70%
+  19  HIPCM16637   52.93%    passed     99.94%
+  20  GADMO15775   52.93%    passed     99.68%
+  21  ASTMX04760   56.62%    passed     98.98%
+  22  PYGNA01663   51.27%    passed     88.81%
+  23  ICTPU08067   52.16%    passed     98.54%
+  24  DANRE23133   52.29%    passed     99.99%
+  25  LATCH20192   52.54%    passed     92.62%
+  26  PROCA13731   52.93%    passed     89.53%
+  27  LOXAF19296   55.34%    passed     95.27%
+  28  RABIT10297   53.94%    passed     71.19%
+  29  DIPOR03062   63.87%    passed     44.38%
+  30  FUKDA18411   59.03%    passed     64.46%
+  31  HETGA00998   52.93%    passed     85.65%
+  32  CAVPO15053   53.18%    passed     84.04%
+  33  CHILA20497   52.93%    passed     81.91%
+  34  OCTDE16714   52.93%    passed     87.36%
+  35  JACJA20430   52.93%    passed     85.16%
+  36  CRIGR20993   52.93%    passed     86.94%
+  37  MOUSE14633   52.93%    passed     81.16%
+  38  RATNO19062   52.93%    passed     83.83%
+  39  NANGA24110   52.93%    passed     87.13%
+  40  ICTTR08370   52.93%    passed     85.32%
+  41  CERAT25217   52.93%    passed     80.00%
+  42  CHLSB02149   52.93%    passed     80.15%
+  43  MACFA03031   52.93%    passed     85.33%
+  44  MACMU04227   52.93%    passed     85.33%
+  45  MACNE43406   52.93%    passed     80.15%
+  46  MANLE27501   63.49%    passed     80.22%
+  47  PAPAN03235   52.93%    passed     80.15%
+  48  COLAP30281   52.93%    passed     80.15%
+  49  RHIBE25160   52.93%    passed     80.15%
+  50  RHIRO15008   52.93%    passed     80.15%
+  51  GORGO04780   52.93%    passed     80.15%
+  52  HUMAN06329   52.93%    passed     80.15%
+  53  PANPA09498   52.93%    passed     80.15%
+  54  PANTR05976   52.93%    passed     80.15%
+  55  PONAB02254   52.93%    passed     85.33%
+  56  NOMLE00441   57.38%    passed     95.52%
+  57  AOTNA16003   52.93%    passed     78.45%
+  58  CALJA21234   52.93%    passed     85.08%
+  59  SAIBB31176   52.93%    passed     78.45%
+  60  PROCO09198   52.93%    passed     82.07%
+  61  OTOGA08878   52.93%    passed     89.00%
+  62  TUPBE07976   53.18%    passed     55.95%
+  63  CANLF10849   52.93%    passed     84.06%
+  64  VULVU13859   56.74%    passed     94.50%
+  65  MUSPF02052   56.74%    passed     94.52%
+  66  AILME04572   53.18%    passed     81.97%
+  67  URSAM13714   52.93%    passed     82.76%
+  68  URSMA16390   58.91%    passed     95.11%
+  69  FELCA07850   52.93%    passed     82.71%
+  70  TURTR08427   54.96%    passed     86.93%
+  71  BOVIN15680   52.93%    passed     84.65%
+  72  SHEEP14365   53.44%    passed     91.95%
+  73  PTEVA12377   52.93%    passed     83.65%
+  74  MYOLU06759   64.63%    passed     60.52%
+  75  HORSE16616   57.38%    passed     95.51%
+  76  DASNO12154   52.93%    passed     84.01%
+  77  SARHA06558   56.62%    passed     98.46%
+  78  MONDO15971   53.18%    passed     87.86%
+  79  PHACI08239   52.42%    passed     93.26%
+  80  ANAPL15016   65.65%    passed     78.92%
+  81  FICAL13185   57.38%    passed     99.85%
+  82  TAEGU15166   54.96%    passed     99.55%
+  83  CHRPI21389   59.41%    passed     97.60%
+  84  PELSI11899   52.67%    passed     34.93%
+  85  SPHPU05128   53.44%    passed     99.98%
+  86  ANOCA02813   57.38%    passed     99.56%
+  87  XENTR06215   52.67%    passed     95.12%
+  88  CIOSA12544   56.62%    failed      2.64%
+  89  STRPU08938   53.05%    failed      3.81%
+  90  IXOSC02088   59.29%    passed     74.85%
+  91  STRMM05572   52.29%    passed     99.02%
+  92  DAPPU00039   51.78%    passed     14.60%
+  93  ORCCI11037   52.29%    failed      0.01%
+  94  FOLCA03549   49.36%    failed      0.82%
+  95  BOMMO06126   49.11%    passed     58.34%
+  96  DANPL12312   51.40%    passed     23.71%
+  97  HELME00423   50.13%    passed     22.78%
+  98  MELCN10519   46.18%    passed     40.51%
+  99  DENPD04742   60.94%    failed      3.70%
+ 100  TRICA04434   36.90%    passed     48.28%
+ 101  DROGR11558   39.95%    passed     69.44%
+ 102  DROAN06368   41.98%    passed     78.07%
+ 103  DROBP02023   35.62%    passed     25.97%
+ 104  DROEL03956   39.69%    passed     63.21%
+ 105  DROEU04212   40.59%    passed     73.96%
+ 106  DROFC12333   34.99%    passed     50.93%
+ 107  DROER14004   40.46%    passed     76.64%
+ 108  DROME01373   40.46%    passed     73.65%
+ 109  DROSE09227   40.46%    passed     75.53%
+ 110  DROKI11379   40.71%    passed     74.70%
+ 111  DRORH10892   40.59%    passed     67.18%
+ 112  DROBM03317   40.59%    passed     74.09%
+ 113  DROTK05634   40.59%    passed     82.12%
+ 114  DROPE14381   40.46%    passed     76.24%
+ 115  DROPS05654   40.46%    passed     76.24%
+ 116  DROWI15000   39.31%    passed     52.85%
+ 117  DROMO10153   39.82%    passed     86.88%
+ 118  DROVI09624   39.95%    passed     81.84%
+ 119  LUCCU11595   41.09%    passed     93.73%
+ 120  CULSO00152   45.93%    passed     13.06%
+ 121  ANOGA12002   41.98%    passed     96.56%
+ 122  CULQU18547   45.80%    passed     87.81%
+ 123  APIME06218   47.58%    passed     83.63%
+ 124  BOMIM12415   53.69%    passed     93.08%
+ 125  LINHU01218   55.47%    passed     94.95%
+ 126  OOCBI13241   56.49%    passed     84.59%
+ 127  CAMFO01330   49.24%    passed     86.16%
+ 128  ATTCE10540   49.11%    passed     94.08%
+ 129  SOLIN06458   64.76%    passed     96.59%
+ 130  HARSA13400   64.63%    passed     86.31%
+ 131  NASVI13068   49.11%    passed     99.16%
+ 132  RHOPR06072   49.87%    passed     99.67%
+ 133  PEDHC07326   55.22%    passed     63.21%
+ 134  HELRO01350   58.91%    passed     28.91%
+ 135  CAPI122738   51.78%    passed     88.42%
+ 136  CAPTE11990   51.78%    passed     88.42%
+ 137  CRAGI15122   49.62%    failed      0.17%
+ 138  OCTBM28759   53.69%    passed     20.18%
+ 139  LOTGI14249   57.51%    passed     24.78%
+ 140  AEDAE05355   45.55%    passed     70.18%
+ 141  AEDAE14707   45.55%    passed     66.00%
+ 142  HYDVU02006   56.23%    failed      0.00%
+ 143  HYDVU20141   64.25%    failed      0.00%
+ 144  HYDVU00933   54.58%    failed      0.00%
+ 145  TRIAD06795   63.10%    failed      0.00%
+ 146  TRIAD09984   61.32%    failed      0.00%
+ 147  ORYLA01340   53.56%    failed      0.47%
+ 148  ORYLA04996   56.49%    passed      6.24%
+ 149  ORYLA05870   54.45%    passed     18.87%
+ 150  ORYLA07050   54.83%    passed     89.98%
+ 151  ORYLA10049   52.80%    passed     31.05%
+ 152  ORYLA10050   57.00%    passed     79.32%
+ 153  ORYLA10924   55.09%    failed      2.18%
+ 154  ORYLA11054   52.80%    passed      5.83%
+ 155  ORYLA13960   54.83%    failed      0.04%
+ 156  ORYLA14226   55.09%    failed      0.39%
+ 157  ORYLA14687   55.60%    failed      0.21%
+ 158  ORYLA15786   50.25%    passed     26.62%
+ 159  ORYLA15824   51.65%    passed      6.66%
+ 160  ORYLA15926   55.85%    failed      0.01%
+ 161  ORYLA20334   55.47%    failed      3.05%
+WARNING: 127 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        52.22%  19 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MACNE43406 is identical to CHLSB02149 but kept for subsequent analysis
+NOTE: MACMU04227 is identical to MACFA03031 but kept for subsequent analysis
+NOTE: SAIBB31176 is identical to AOTNA16003 but kept for subsequent analysis
+NOTE: DROPS05654 is identical to DROPE14381 but kept for subsequent analysis
+NOTE: CAPTE11990 is identical to CAPI122738 but kept for subsequent analysis
+NOTE: 9 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PAPAN03235 (identical to CHLSB02149) is ignored but added at the end
+NOTE: COLAP30281 (identical to CHLSB02149) is ignored but added at the end
+NOTE: RHIBE25160 (identical to CHLSB02149) is ignored but added at the end
+NOTE: RHIRO15008 (identical to CHLSB02149) is ignored but added at the end
+NOTE: GORGO04780 (identical to CHLSB02149) is ignored but added at the end
+NOTE: HUMAN06329 (identical to CHLSB02149) is ignored but added at the end
+NOTE: PANPA09498 (identical to CHLSB02149) is ignored but added at the end
+NOTE: PANTR05976 (identical to CHLSB02149) is ignored but added at the end
+NOTE: PONAB02254 (identical to MACFA03031) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to wnt1.clustal_aln.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.057 seconds
+
+NOTE: 17 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -37766.435
+Optimal log-likelihood: -36347.555
+Parameters optimization took 1 rounds (0.325 sec)
+Computing ML distances based on estimated model parameters... 1.544 sec
+Computing BIONJ tree...
+0.012 seconds
+Log-likelihood of BIONJ tree: -36690.486
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.343 second
+Computing log-likelihood of 98 initial trees ... 13.675 seconds
+Current best score: -36336.178
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -36309.526
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -36298.904
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -36285.480
+Iteration 10 / LogL: -36317.402 / Time: 0h:0m:35s
+Iteration 20 / LogL: -36312.714 / Time: 0h:0m:47s
+Finish initializing candidate tree set (20)
+Current best tree score: -36285.480 / CPU time: 45.170
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -36282.880
+Iteration 30 / LogL: -36282.880 / Time: 0h:1m:3s (0h:3m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -36281.840
+Iteration 40 / LogL: -36297.045 / Time: 0h:1m:20s (0h:3m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -36280.856
+Iteration 50 / LogL: -36293.943 / Time: 0h:1m:38s (0h:3m:5s left)
+Iteration 60 / LogL: -36287.884 / Time: 0h:1m:58s (0h:2m:44s left)
+Iteration 70 / LogL: -36290.302 / Time: 0h:2m:19s (0h:2m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -36279.938
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -36279.560
+Iteration 80 / LogL: -36281.310 / Time: 0h:2m:38s (0h:3m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -36279.133
+Iteration 90 / LogL: -36282.691 / Time: 0h:2m:57s (0h:3m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -36279.080
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -36278.470
+Iteration 100 / LogL: -36345.461 / Time: 0h:3m:20s (0h:3m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -36278.362
+Iteration 110 / LogL: -36302.199 / Time: 0h:3m:40s (0h:3m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -36277.551
+Iteration 120 / LogL: -36279.202 / Time: 0h:4m:4s (0h:3m:9s left)
+Iteration 130 / LogL: -36285.045 / Time: 0h:4m:28s (0h:2m:50s left)
+Iteration 140 / LogL: -36285.253 / Time: 0h:4m:49s (0h:2m:29s left)
+Iteration 150 / LogL: -36292.012 / Time: 0h:5m:5s (0h:2m:7s left)
+BETTER TREE FOUND at iteration 156: -36277.551
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 160: -36277.343
+Iteration 160 / LogL: -36277.343 / Time: 0h:5m:23s (0h:3m:23s left)
+Iteration 170 / LogL: -36281.528 / Time: 0h:5m:39s (0h:3m:0s left)
+Iteration 180 / LogL: -36285.486 / Time: 0h:5m:56s (0h:2m:39s left)
+Iteration 190 / LogL: -36279.289 / Time: 0h:6m:14s (0h:2m:18s left)
+Iteration 200 / LogL: -36283.684 / Time: 0h:6m:30s (0h:1m:57s left)
+Iteration 210 / LogL: -36279.094 / Time: 0h:6m:46s (0h:1m:37s left)
+Iteration 220 / LogL: -36277.668 / Time: 0h:7m:3s (0h:1m:17s left)
+Iteration 230 / LogL: -36278.637 / Time: 0h:7m:19s (0h:0m:57s left)
+Iteration 240 / LogL: -36288.245 / Time: 0h:7m:36s (0h:0m:38s left)
+Iteration 250 / LogL: -36283.740 / Time: 0h:7m:53s (0h:0m:18s left)
+Iteration 260 / LogL: -36283.277 / Time: 0h:8m:9s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 261 ITERATIONS / Time: 0h:8m:12s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -36277.343
+Optimal log-likelihood: -36277.343
+Parameters optimization took 1 rounds (0.116 sec)
+BEST SCORE FOUND : -36277.343
+Total tree length: 25.681
+
+Total number of iterations: 261
+CPU time used for tree search: 489.472 sec (0h:8m:9s)
+Wall-clock time used for tree search: 489.625 sec (0h:8m:9s)
+Total CPU time used: 491.964 sec (0h:8m:11s)
+Total wall-clock time used: 492.129 sec (0h:8m:12s)
+
+Analysis results written to: 
+  IQ-TREE report:                wnt1.clustal_aln.fasta.iqtree
+  Maximum-likelihood tree:       wnt1.clustal_aln.fasta.treefile
+  Likelihood distances:          wnt1.clustal_aln.fasta.mldist
+  Screen log file:               wnt1.clustal_aln.fasta.log
+
+Date and Time: Thu Jan 30 22:36:54 2020
+  52.93%    passed     82.76%
+  68  URSMA16390   58.91%    passed     95.11%
+  69  FELCA07850   52.93%    passed     82.71%
+  70  TURTR08427   54.96%    passed     86.93%
+  71  BOVIN15680   52.93%    passed     84.65%
+  72  SHEEP14365   53.44%    passed     91.95%
+  73  PTEVA12377   52.93%    passed     83.65%
+  74  MYOLU06759   64.63%    passed     60.52%
+  75  HORSE16616   57.38%    passed     95.51%
+  76  DASNO12154   52.93%    passed     84.01%
+  77  SARHA06558   56.62%    passed     98.46%
+  78  MONDO15971   53.18%    passed     87.86%
+  79  PHACI08239   52.42%    passed     93.26%
+  80  ANAPL15016   65.65%    passed     78.92%
+  81  FICAL13185   57.38%    passed     99.85%
+  82  TAEGU15166   54.96%    passed     99.55%
+  83  CHRPI21389   59.41%    passed     97.60%
+  84  PELSI11899   52.67%    passed     34.93%
+  85  SPHPU05128   53.44%    passed     99.98%
+  86  ANOCA02813   57.38%    passed     99.56%
+  87  XENTR06215   52.67%    passed     95.12%
+  88  CIOSA12544   56.62%    failed      2.64%
+  89  STRPU08938   53.05%    failed      3.81%
+  90  IXOSC02088   59.29%    passed     74.85%
+  91  STRMM05572   52.29%    passed     99.02%
+  92  DAPPU00039   51.78%    passed     14.60%
+  93  ORCCI11037   52.29%    failed      0.01%
+  94  FOLCA03549   49.36%    failed      0.82%
+  95  BOMMO06126   49.11%    passed     58.34%
+  96  DANPL12312   51.40%    passed     23.71%
+  97  HELME00423   50.13%    passed     22.78%
+  98  MELCN10519   46.18%    passed     40.51%
+  99  DENPD04742   60.94%    failed      3.70%
+ 100  TRICA04434   36.90%    passed     48.28%
+ 101  DROGR11558   39.95%    passed     69.44%
+ 102  DROAN06368   41.98%    passed     78.07%
+ 103  DROBP02023   35.62%    passed     25.97%
+ 104  DROEL03956   39.69%    passed     63.21%
+ 105  DROEU04212   40.59%    passed     73.96%
+ 106  DROFC12333   34.99%    passed     50.93%
+ 107  DROER14004   40.46%    passed     76.64%
+ 108  DROME01373   40.46%    passed     73.65%
+ 109  DROSE09227   40.46%    passed     75.53%
+ 110  DROKI11379   40.71%    passed     74.70%
+ 111  DRORH10892   40.59%    passed     67.18%
+ 112  DROBM03317   40.59%    passed     74.09%
+ 113  DROTK05634   40.59%    passed     82.12%
+ 114  DROPE14381   40.46%    passed     76.24%
+ 115  DROPS05654   40.46%    passed     76.24%
+ 116  DROWI15000   39.31%    passed     52.85%
+ 117  DROMO10153   39.82%    passed     86.88%
+ 118  DROVI09624   39.95%    passed     81.84%
+ 119  LUCCU11595   41.09%    passed     93.73%
+ 120  CULSO00152   45.93%    passed     13.06%
+ 121  ANOGA12002   41.98%    passed     96.56%
+ 122  CULQU18547   45.80%    passed     87.81%
+ 123  APIME06218   47.58%    passed     83.63%
+ 124  BOMIM12415   53.69%    passed     93.08%
+ 125  LINHU01218   55.47%    passed     94.95%
+ 126  OOCBI13241   56.49%    passed     84.59%
+ 127  CAMFO01330   49.24%    passed     86.16%
+ 128  ATTCE10540   49.11%    passed     94.08%
+ 129  SOLIN06458   64.76%    passed     96.59%
+ 130  HARSA13400   64.63%    passed     86.31%
+ 131  NASVI13068   49.11%    passed     99.16%
+ 132  RHOPR06072   49.87%    passed     99.67%
+ 133  PEDHC07326   55.22%    passed     63.21%
+ 134  HELRO01350   58.91%    passed     28.91%
+ 135  CAPI122738   51.78%    passed     88.42%
+ 136  CAPTE11990   51.78%    passed     88.42%
+ 137  CRAGI15122   49.62%    failed      0.17%
+ 138  OCTBM28759   53.69%    passed     20.18%
+ 139  LOTGI14249   57.51%    passed     24.78%
+ 140  AEDAE05355   45.55%    passed     70.18%
+ 141  AEDAE14707   45.55%    passed     66.00%
+ 142  HYDVU02006   56.23%    failed      0.00%
+ 143  HYDVU20141   64.25%    failed      0.00%
+ 144  HYDVU00933   54.58%    failed      0.00%
+ 145  TRIAD06795   63.10%    failed      0.00%
+ 146  TRIAD09984   61.32%    failed      0.00%
+ 147  ORYLA01340   53.56%    failed      0.47%
+ 148  ORYLA04996   56.49%    passed      6.24%
+ 149  ORYLA05870   54.45%    passed     18.87%
+ 150  ORYLA07050   54.83%    passed     89.98%
+ 151  ORYLA10049   52.80%    passed     31.05%
+ 152  ORYLA10050   57.00%    passed     79.32%
+ 153  ORYLA10924   55.09%    failed      2.18%
+ 154  ORYLA11054   52.80%    passed      5.83%
+ 155  ORYLA13960   54.83%    failed      0.04%
+ 156  ORYLA14226   55.09%    failed      0.39%
+ 157  ORYLA14687   55.60%    failed      0.21%
+ 158  ORYLA15786   50.25%    passed     26.62%
+ 159  ORYLA15824   51.65%    passed      6.66%
+ 160  ORYLA15926   55.85%    failed      0.01%
+ 161  ORYLA20334   55.47%    failed      3.05%
+WARNING: 127 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        52.22%  19 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MACNE43406 is identical to CHLSB02149 but kept for subsequent analysis
+NOTE: MACMU04227 is identical to MACFA03031 but kept for subsequent analysis
+NOTE: SAIBB31176 is identical to AOTNA16003 but kept for subsequent analysis
+NOTE: DROPS05654 is identical to DROPE14381 but kept for subsequent analysis
+NOTE: CAPTE11990 is identical to CAPI122738 but kept for subsequent analysis
+NOTE: 9 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PAPAN03235 (identical to CHLSB02149) is ignored but added at the end
+NOTE: COLAP30281 (identical to CHLSB02149) is ignored but added at the end
+NOTE: RHIBE25160 (identical to CHLSB02149) is ignored but added at the end
+NOTE: RHIRO15008 (identical to CHLSB02149) is ignored but added at the end
+NOTE: GORGO04780 (identical to CHLSB02149) is ignored but added at the end
+NOTE: HUMAN06329 (identical to CHLSB02149) is ignored but added at the end
+NOTE: PANPA09498 (identical to CHLSB02149) is ignored but added at the end
+NOTE: PANTR05976 (identical to CHLSB02149) is ignored but added at the end
+NOTE: PONAB02254 (identical to MACFA03031) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to wnt1.clustal_aln.fasta.uniqueseq.phy
+
+CHECKPOINT: Initial tree restored
+
+NOTE: 17 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -37766.435
+Optimal log-likelihood: -36347.555
+Parameters optimization took 1 rounds (0.311 sec)
+Computing ML distances based on estimated model parameters... 1.496 sec
+Computing BIONJ tree...
+0.012 seconds
+Log-likelihood of BIONJ tree: -36690.486
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.052 second
+Computing log-likelihood of 98 initial trees ... 13.546 seconds
+Current best score: -36326.088
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -36298.107
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -36297.634
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -36285.480
+Iteration 10 / LogL: -36312.773 / Time: 0h:0m:33s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -36285.414
+Iteration 20 / LogL: -36336.556 / Time: 0h:0m:45s
+Finish initializing candidate tree set (20)
+Current best tree score: -36285.414 / CPU time: 43.699
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -36284.847
+Iteration 30 / LogL: -36288.965 / Time: 0h:1m:3s (0h:3m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -36282.320
+Iteration 40 / LogL: -36308.201 / Time: 0h:1m:23s (0h:3m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -36281.455
+Iteration 50 / LogL: -36281.455 / Time: 0h:1m:43s (0h:3m:31s left)
+Iteration 60 / LogL: -36285.978 / Time: 0h:2m:6s (0h:3m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -36281.265
+Iteration 70 / LogL: -36282.129 / Time: 0h:2m:26s (0h:3m:27s left)
+Iteration 80 / LogL: -36290.501 / Time: 0h:2m:45s (0h:3m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -36281.125
+Iteration 90 / LogL: -36311.047 / Time: 0h:3m:5s (0h:3m:14s left)
+BETTER TREE FOUND at iteration 97: -36281.125
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -36280.885
+Iteration 100 / LogL: -36281.125 / Time: 0h:3m:25s (0h:3m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 103: -36279.147
+Iteration 110 / LogL: -36282.896 / Time: 0h:3m:45s (0h:3m:12s left)
+Iteration 120 / LogL: -36291.101 / Time: 0h:4m:4s (0h:2m:50s left)
+Iteration 130 / LogL: -36292.200 / Time: 0h:4m:22s (0h:2m:28s left)
+Iteration 140 / LogL: -36280.780 / Time: 0h:4m:39s (0h:2m:6s left)
+Iteration 150 / LogL: -36284.618 / Time: 0h:4m:57s (0h:1m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 157: -36279.056
+Iteration 160 / LogL: -36281.580 / Time: 0h:5m:16s (0h:3m:12s left)
+Iteration 170 / LogL: -36281.327 / Time: 0h:5m:33s (0h:2m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 175: -36278.856
+Iteration 180 / LogL: -36280.771 / Time: 0h:5m:51s (0h:3m:6s left)
+Iteration 190 / LogL: -36285.245 / Time: 0h:6m:9s (0h:2m:46s left)
+Iteration 200 / LogL: -36294.666 / Time: 0h:6m:27s (0h:2m:25s left)
+BETTER TREE FOUND at iteration 206: -36278.856
+Iteration 210 / LogL: -36298.259 / Time: 0h:6m:43s (0h:3m:5s left)
+Iteration 220 / LogL: -36382.198 / Time: 0h:7m:1s (0h:2m:45s left)
+Iteration 230 / LogL: -36288.471 / Time: 0h:7m:19s (0h:2m:25s left)
+Iteration 240 / LogL: -36284.583 / Time: 0h:7m:36s (0h:2m:6s left)
+Iteration 250 / LogL: -36282.892 / Time: 0h:7m:54s (0h:1m:46s left)
+Iteration 260 / LogL: -36292.622 / Time: 0h:8m:12s (0h:1m:27s left)
+Iteration 270 / LogL: -36284.472 / Time: 0h:8m:30s (0h:1m:8s left)
+Iteration 280 / LogL: -36289.580 / Time: 0h:8m:48s (0h:0m:49s left)
+BETTER TREE FOUND at iteration 289: -36278.856
+Iteration 290 / LogL: -36291.946 / Time: 0h:9m:5s (0h:3m:6s left)
+Iteration 300 / LogL: -36281.873 / Time: 0h:9m:23s (0h:2m:47s left)
+Iteration 310 / LogL: -36281.974 / Time: 0h:9m:39s (0h:2m:28s left)
+Iteration 320 / LogL: -36280.490 / Time: 0h:9m:57s (0h:2m:9s left)
+BETTER TREE FOUND at iteration 329: -36278.856
+Iteration 330 / LogL: -36407.358 / Time: 0h:10m:15s (0h:3m:5s left)
+Iteration 340 / LogL: -36291.741 / Time: 0h:10m:32s (0h:2m:45s left)
+Iteration 350 / LogL: -36284.880 / Time: 0h:10m:49s (0h:2m:26s left)
+Iteration 360 / LogL: -36286.376 / Time: 0h:11m:6s (0h:2m:8s left)
+Iteration 370 / LogL: -36284.319 / Time: 0h:11m:25s (0h:1m:49s left)
+Iteration 380 / LogL: -36288.445 / Time: 0h:11m:42s (0h:1m:30s left)
+BETTER TREE FOUND at iteration 390: -36278.856
+Iteration 390 / LogL: -36278.856 / Time: 0h:12m:2s (0h:3m:5s left)
+Iteration 400 / LogL: -36281.032 / Time: 0h:12m:21s (0h:2m:47s left)
+Iteration 410 / LogL: -36280.490 / Time: 0h:12m:39s (0h:2m:28s left)
+Iteration 420 / LogL: -36288.948 / Time: 0h:12m:55s (0h:2m:9s left)
+Iteration 430 / LogL: -36282.605 / Time: 0h:13m:12s (0h:1m:50s left)
+Iteration 440 / LogL: -36282.396 / Time: 0h:13m:29s (0h:1m:32s left)
+Iteration 450 / LogL: -36315.931 / Time: 0h:13m:47s (0h:1m:13s left)
+Iteration 460 / LogL: -36291.510 / Time: 0h:14m:5s (0h:0m:55s left)
+BETTER TREE FOUND at iteration 462: -36278.855
+Iteration 470 / LogL: -36291.683 / Time: 0h:14m:21s (0h:2m:49s left)
+Iteration 480 / LogL: -36279.062 / Time: 0h:14m:38s (0h:2m:30s left)
+Iteration 490 / LogL: -36286.727 / Time: 0h:14m:56s (0h:2m:11s left)
+Iteration 500 / LogL: -36285.661 / Time: 0h:15m:13s (0h:1m:53s left)
+Iteration 510 / LogL: -36279.430 / Time: 0h:15m:31s (0h:1m:35s left)
+Iteration 520 / LogL: -36281.222 / Time: 0h:15m:49s (0h:1m:16s left)
+Iteration 530 / LogL: -36300.637 / Time: 0h:16m:6s (0h:0m:58s left)
+Iteration 540 / LogL: -36287.218 / Time: 0h:16m:24s (0h:0m:40s left)
+Iteration 550 / LogL: -36410.492 / Time: 0h:16m:41s (0h:0m:21s left)
+Iteration 560 / LogL: -36298.507 / Time: 0h:16m:59s (0h:0m:3s left)
+TREE SEARCH COMPLETED AFTER 563 ITERATIONS / Time: 0h:17m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -36278.855
+Optimal log-likelihood: -36278.855
+Parameters optimization took 1 rounds (0.116 sec)
+BEST SCORE FOUND : -36278.855
+Total tree length: 25.685
+
+Total number of iterations: 563
+CPU time used for tree search: 1023.032 sec (0h:17m:3s)
+Wall-clock time used for tree search: 1023.188 sec (0h:17m:3s)
+Total CPU time used: 1025.388 sec (0h:17m:5s)
+Total wall-clock time used: 1025.562 sec (0h:17m:5s)
+
+Analysis results written to: 
+  IQ-TREE report:                wnt1.clustal_aln.fasta.iqtree
+  Maximum-likelihood tree:       wnt1.clustal_aln.fasta.treefile
+  Likelihood distances:          wnt1.clustal_aln.fasta.mldist
+  Screen log file:               wnt1.clustal_aln.fasta.log
+
+Date and Time: Thu Jan 30 22:46:25 2020
